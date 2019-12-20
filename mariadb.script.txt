@@ -4,4 +4,4 @@ create user 'user1' identified by '123456789';
 
 create database if not exists nextcloud;
 
-grant all privileges on nextcloud.* to 'user1' identified by '123456789'
+grant all privileges on nextcloud.* to 'user1' identified by '123456789';
