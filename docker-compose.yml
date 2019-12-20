@@ -9,7 +9,7 @@ services:
       - MYSQL_ROOT_PASSWORD=123456789
       - TZ=Europe/London
     volumes:
-      - /tmp/sharedfolders/appData/nextclouddb:/config
+      - /sharedfolders/appData/nextclouddb:/config
     ports:
       - 3306:3306
     restart: always
